@@ -1,61 +1,55 @@
-import { useState } from 'react';
-import classNames from 'classnames';
-import { ReactComponent as ReactLogo } from './assets/react.svg';
-import { ReactComponent as ViteLogo } from './assets/vite.svg';
-import { ReactComponent as TypescriptLogo } from './assets/typescript.svg';
-import { ReactComponent as ScssLogo } from './assets/scss.svg';
+import {
+    Button,
+    Calendar,
+    Checkbox,
+    CheckboxGroup,
+    DatePicker,
+    defaultTheme,
+    Form,
+    ProgressBar,
+    Provider,
+    Slider,
+    StatusLight,
+    Switch,
+    TextField,
+    ToggleButton,
+} from '@adobe/react-spectrum';
 import styles from './App.module.scss';
 
-function App() {
-    const [count, setCount] = useState(0);
-
+export const App = function App() {
     return (
-        <div className={styles.App}>
-            <div>
-                <a href="https://vitejs.dev" target="_blank">
-                    <ViteLogo
-                        height="6em"
-                        width="6em"
-                        className={classNames(styles.logo)}
-                        title="Vite logo"
-                    />
-                </a>
-                <a href="https://reactjs.org" target="_blank">
-                    <ReactLogo
-                        height="6em"
-                        width="6em"
-                        className={classNames(styles.logo, styles.react)}
-                        title="React logo"
-                    />
-                </a>
-                <a href="https://www.typescriptlang.org/" target="_blank">
-                    <TypescriptLogo
-                        height="6em"
-                        width="6em"
-                        className={classNames(styles.logo, styles.ts)}
-                        title="Typescript logo"
-                    />
-                </a>
-                <a href="https://sass-lang.com/" target="_blank">
-                    <ScssLogo
-                        height="6em"
-                        width="6em"
-                        className={classNames(styles.logo, styles.scss)}
-                        title="SCSS logo"
-                    />
-                </a>
+        <Provider theme={defaultTheme}>
+            <div className={styles.root}>
+                <div className={styles.box}>
+                    <Button variant="accent" onPress={() => alert('Hey there!')}>
+                        Hello React Spectrum!
+                    </Button>
+                    <ToggleButton>Pin</ToggleButton>
+                    <Switch>Low power mode</Switch>
+                    <Slider label="Cookies to buy" defaultValue={12} />
+                    <DatePicker label="Event date" />
+                </div>
+                <div className={styles.box}>
+                    <ProgressBar label="Loading…" minValue={50} maxValue={150} value={100} />
+                    <Calendar aria-label="Event date" />
+                </div>
+                <div className={styles.box}>
+                    <StatusLight variant="positive">Semantic color</StatusLight>
+                    <StatusLight variant="yellow">Label color</StatusLight>
+                    <CheckboxGroup label="Favorite sports">
+                        <Checkbox value="soccer">Soccer</Checkbox>
+                        <Checkbox value="baseball">Baseball</Checkbox>
+                        <Checkbox value="basketball">Basketball</Checkbox>
+                    </CheckboxGroup>
+                    <Form maxWidth="size-3600">
+                        <TextField label="Email" />
+                        <TextField label="Password" />
+                        <Checkbox>Remember me</Checkbox>
+                    </Form>
+                </div>
             </div>
-            <div className={styles.card}>
-                <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-                <p>
-                    Edit <code>src/App.tsx</code> and save to test HMR
-                </p>
-            </div>
-            <p className={styles['read-the-docs']}>
-                Click on the Vite and React logos to learn more
-            </p>
-        </div>
+        </Provider>
     );
-}
+};
 
 export default App;
