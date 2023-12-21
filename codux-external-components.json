@@ -1,0 +1,172 @@
+[
+    {
+        "name": "@react-spectrum",
+        "components": [
+            {
+                "filePath": "@react-spectrum/actiongroup",
+                "exportName": "ActionGroup",
+                "name": "Actiongroup"
+            },
+            {
+                "filePath": "@react-spectrum/badge",
+                "exportName": "Badge",
+                "name": "Badge"
+            },
+            {
+                "filePath": "@react-spectrum/breadcrumbs",
+                "exportName": "Breadcrumbs",
+                "name": "Breadcrumbs"
+            },
+            {
+                "filePath": "@react-spectrum/actionbar",
+                "exportName": "ActionBar",
+                "name": "Actionbar"
+            },
+            {
+                "filePath": "@react-spectrum/actionbar",
+                "exportName": "ActionBarContainer",
+                "name": "Actionbarcontainer"
+            },
+            {
+                "filePath": "@react-spectrum/button",
+                "exportName": "ActionButton",
+                "name": "Actionbutton"
+            },
+            {
+                "filePath": "@react-spectrum/button",
+                "exportName": "Button",
+                "name": "Button"
+            },
+            {
+                "filePath": "@react-spectrum/button",
+                "exportName": "LogicButton",
+                "name": "Logicbutton"
+            },
+            {
+                "filePath": "@react-spectrum/button",
+                "exportName": "ToggleButton",
+                "name": "Togglebutton"
+            },
+            {
+                "filePath": "@react-spectrum/avatar",
+                "exportName": "Avatar",
+                "name": "Avatar"
+            },
+            {
+                "filePath": "@react-spectrum/tooltip",
+                "exportName": "Tooltip",
+                "name": "Tooltip"
+            },
+            {
+                "filePath": "@react-spectrum/tooltip",
+                "exportName": "TooltipTrigger",
+                "name": "Tooltiptrigger"
+            },
+            {
+                "filePath": "@react-spectrum/view",
+                "exportName": "Content",
+                "name": "Content"
+            },
+            {
+                "filePath": "@react-spectrum/view",
+                "exportName": "Footer",
+                "name": "Footer"
+            },
+            {
+                "filePath": "@react-spectrum/view",
+                "exportName": "Header",
+                "name": "Header"
+            },
+            {
+                "filePath": "@react-spectrum/view",
+                "exportName": "View",
+                "name": "View"
+            },
+            {
+                "filePath": "@react-spectrum/well",
+                "exportName": "Well",
+                "name": "Well"
+            },
+            {
+                "filePath": "@react-stately/collections",
+                "exportName": "Item",
+                "name": "Item"
+            },
+            {
+                "filePath": "@react-stately/collections",
+                "exportName": "Section",
+                "name": "Section"
+            },
+            {
+                "filePath": "@react-stately/data",
+                "exportName": "useAsyncList",
+                "name": "Useasynclist"
+            },
+            {
+                "filePath": "@react-stately/data",
+                "exportName": "useListData",
+                "name": "Uselistdata"
+            },
+            {
+                "filePath": "@react-stately/data",
+                "exportName": "useTreeData",
+                "name": "Usetreedata"
+            },
+            {
+                "filePath": "@react-aria/visually-hidden",
+                "exportName": "VisuallyHidden",
+                "name": "Visuallyhidden"
+            },
+            {
+                "filePath": "@react-aria/i18n",
+                "exportName": "useCollator",
+                "name": "Usecollator"
+            },
+            {
+                "filePath": "@react-aria/i18n",
+                "exportName": "useDateFormatter",
+                "name": "Usedateformatter"
+            },
+            {
+                "filePath": "@react-aria/i18n",
+                "exportName": "useFilter",
+                "name": "Usefilter"
+            },
+            {
+                "filePath": "@react-aria/i18n",
+                "exportName": "useLocale",
+                "name": "Uselocale"
+            },
+            {
+                "filePath": "@react-aria/i18n",
+                "exportName": "useLocalizedStringFormatter",
+                "name": "Uselocalizedstringformatter"
+            },
+            {
+                "filePath": "@react-aria/i18n",
+                "exportName": "useMessageFormatter",
+                "name": "Usemessageformatter"
+            },
+            {
+                "filePath": "@react-aria/i18n",
+                "exportName": "useNumberFormatter",
+                "name": "Usenumberformatter"
+            },
+            {
+                "filePath": "@react-aria/ssr",
+                "exportName": "SSRProvider",
+                "name": "Ssrprovider"
+            },
+            {
+                "filePath": "@react-spectrum/dnd",
+                "exportName": "useDragAndDrop",
+                "name": "Usedraganddrop"
+            },
+            {
+                "filePath": "@react-spectrum/dnd",
+                "exportName": "DIRECTORY_DRAG_TYPE",
+                "name": "Directory Drag Type"
+            }
+        ]
+    }
+]
